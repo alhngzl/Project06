@@ -17,6 +17,10 @@ html, body{
 #line{
 	height: 4%;
 }
+#line2{
+	height: 0.2vw;
+	background: $color-5;
+}
 
 #navbar{
 	background-color: $color-1;
@@ -123,8 +127,98 @@ html, body{
 			}
 		}
 		#payment_info{
-
 			background-color: $color-1;
+			.form_input{
+				margin: 1vw 0vw 0vw 0vw;
+			}
+			#card_payment{
+				button{
+					width: 100%;
+				}
+			}
+			#card_show{
+				text-align: center;
+				margin: 2vw 0vw 2vw 0vw;
+				img{
+					width: 320px;
+					height: 240px;
+				}
+			}
+		}
+	}
+}
+
+#sign_page{
+	#sign_area{
+		#sign_title{
+			font-size: large;
+		}
+		padding: 0px 20px 0px 20px;
+		#sign_in{
+			height: 18vw;
+			background-color: $color-1;
+			.form_input{
+				margin: 1vw 0vw 1vw 0vw;
+			}
+			#sign_in_action{
+				button{
+					width: 100%;
+				}
+			}
+		}
+		#sign_up{
+			height: 18vw;
+			background-color: $color-1;
+			.form_input{
+				margin: 1vw 0vw 1vw 0vw;
+			}
+			#sign_up_action{
+				button{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+#product_page{
+
+	#content{
+		#product_title{
+			font-size: large;
+		}
+		padding: 0px 20px 0px 20px;
+		.product{
+			text-align: center;
+			padding: 1vw 0vw 1vw 0vw;
+			.show{
+				img{
+					width: $product-img-width;
+					height: $product-img-height;
+					box-shadow: $color-5 7px 9px 7px;
+				}
+			}
+			.name{
+				padding: 2vw 0vw 0vw 0vw;
+				font-weight: 700;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+			.amount{
+				padding: 2vw 0vw 1.5vw 0vw;
+				font-weight: 900;
+			}
+			.button{
+				padding: 0vw 0vw 0vw 0vw;
+				border: solid 0.15vw;
+				border-radius: 1vw;
+				width: 15vw;
+				margin: auto;
+			}
+			.button:hover{
+				background-color: $color-1;
+				cursor: pointer;
+			}
 		}
 	}
 }

@@ -6,10 +6,6 @@ html, body {
 #line {
   height: 4%; }
 
-#line2 {
-  height: 0.2vw;
-  background: #161616; }
-
 #navbar {
   background-color: #D5D5D5;
   height: 8%;
@@ -114,35 +110,5 @@ html, body {
       margin: 1vw 0vw 1vw 0vw; }
     #sign_page #sign_area #sign_up #sign_up_action button {
       width: 100%; }
-
-#product_page #content {
-  padding: 0px 20px 0px 20px; }
-  #product_page #content #product_title {
-    font-size: large; }
-  #product_page #content .product {
-    text-align: center;
-    padding: 1vw 0vw 1vw 0vw; }
-    #product_page #content .product .show img {
-      width: 300px;
-      height: 400px;
-      box-shadow: #161616 7px 9px 7px; }
-    #product_page #content .product .name {
-      padding: 2vw 0vw 0vw 0vw;
-      font-weight: 700;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis; }
-    #product_page #content .product .amount {
-      padding: 2vw 0vw 1.5vw 0vw;
-      font-weight: 900; }
-    #product_page #content .product .button {
-      padding: 0vw 0vw 0vw 0vw;
-      border: solid 0.15vw;
-      border-radius: 1vw;
-      width: 15vw;
-      margin: auto; }
-    #product_page #content .product .button:hover {
-      background-color: #D5D5D5;
-      cursor: pointer; }
 
 /*# sourceMappingURL=user.css.map */
