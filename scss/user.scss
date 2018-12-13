@@ -132,7 +132,7 @@ html, body{
 				margin: 1vw 0vw 0vw 0vw;
 			}
 			#card_payment{
-				button{
+				a{
 					width: 100%;
 				}
 			}
@@ -161,7 +161,7 @@ html, body{
 				margin: 1vw 0vw 1vw 0vw;
 			}
 			#sign_in_action{
-				button{
+				#sign_in_action_button{
 					width: 100%;
 				}
 			}
@@ -173,7 +173,7 @@ html, body{
 				margin: 1vw 0vw 1vw 0vw;
 			}
 			#sign_up_action{
-				button{
+				#sign_up_action_button{
 					width: 100%;
 				}
 			}

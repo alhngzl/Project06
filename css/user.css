@@ -87,7 +87,7 @@ html, body {
     background-color: #D5D5D5; }
     #cart_page #cart #payment_info .form_input {
       margin: 1vw 0vw 0vw 0vw; }
-    #cart_page #cart #payment_info #card_payment button {
+    #cart_page #cart #payment_info #card_payment a {
       width: 100%; }
     #cart_page #cart #payment_info #card_show {
       text-align: center;
@@ -105,14 +105,14 @@ html, body {
     background-color: #D5D5D5; }
     #sign_page #sign_area #sign_in .form_input {
       margin: 1vw 0vw 1vw 0vw; }
-    #sign_page #sign_area #sign_in #sign_in_action button {
+    #sign_page #sign_area #sign_in #sign_in_action #sign_in_action_button {
       width: 100%; }
   #sign_page #sign_area #sign_up {
     height: 18vw;
     background-color: #D5D5D5; }
     #sign_page #sign_area #sign_up .form_input {
       margin: 1vw 0vw 1vw 0vw; }
-    #sign_page #sign_area #sign_up #sign_up_action button {
+    #sign_page #sign_area #sign_up #sign_up_action #sign_up_action_button {
       width: 100%; }
 
 #product_page #content {
